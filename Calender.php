@@ -1,6 +1,6 @@
 <?php
 
-class Date
+class Calender
 {
     public function showday($month, $day)
     {

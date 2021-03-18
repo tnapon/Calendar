@@ -1,5 +1,5 @@
 <?php
-include "Date.php";
+include "Calender.php";
 
 use PHPUnit\Framework\TestCase;
 
@@ -9,7 +9,7 @@ class testCalen extends TestCase
 
     public function setUp(): void
     {
-        $this->calendar = new Date();
+        $this->calendar = new Calender();
     }
     public function testDate1()
     {

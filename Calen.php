@@ -7,4 +7,4 @@ $day = $_POST["Day"];
 
 $calendar = new Calender();
 $result = $calendar->showday($month, $day);
-echo $result;
+echo "<h1 id='result'>$result</h1> ";
